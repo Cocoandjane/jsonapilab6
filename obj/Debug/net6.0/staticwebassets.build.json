@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "piglqml+vhTL2ibUGUANAscZk6AHOX3PhpEvnLY1GUo=",
+  "Source": "ClientJSON",
+  "BasePath": "_content/ClientJSON",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ClientJSON/wwwroot",
+      "Source": "ClientJSON",
+      "ContentRoot": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/",
+      "BasePath": "_content/ClientJSON",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/index.css",
+      "SourceId": "ClientJSON",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/",
+      "BasePath": "_content/ClientJSON",
+      "RelativePath": "index.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.css"
+    },
+    {
+      "Identity": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/index.html",
+      "SourceId": "ClientJSON",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/",
+      "BasePath": "_content/ClientJSON",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/scripts/jquery/jquery.min.js",
+      "SourceId": "ClientJSON",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/jane/Desktop/term3/csharp/week6/lab6/ClientJSON/wwwroot/",
+      "BasePath": "_content/ClientJSON",
+      "RelativePath": "scripts/jquery/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/scripts/jquery/jquery.min.js"
+    }
+  ]
+}

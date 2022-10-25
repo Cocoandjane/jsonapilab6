@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cors Client</title>
+    <script src="scripts/jquery/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h3>Cors Request</h3>
+    <button id="btnGetProvinces">Get Provinces</button>
+    <button id="btnGetCities">Get Cities</button>
+    <div id="container">
+      <pre id="preOutputProvince"></pre>
+      <pre id="preOutput"></pre>
+    </div>
+    <script>
+      $(function () {
+        var GetProvinces= function () {
+          var url = "https://lab6jane.azurewebsites.net//api/Province/GetProvinces";
+          $.get(url).always(showResponse);
+          return false;
+        };
+    
+        var showResponse = function (pData) {
+          $("#preOutputProvince").text(JSON.stringify(pData, null, 4));
+        };
+    
+        $("#btnGetProvinces").click(GetProvinces);
+      });
+
+    </script>
+    <script>
+      $(function () {
+        var getCites= function () {
+          var url = "https://lab6jane.azurewebsites.net//api/City/GetCities";
+          $.get(url).always(showResponse);
+          return false;
+        };
+    
+        var showResponse = function (data) {
+          $("#preOutput").text(JSON.stringify(data, null, 4));
+        };
+    
+        $("#btnGetCities").click(getCites);
+      });
+    </script>
+    </body>
+</html>
+
